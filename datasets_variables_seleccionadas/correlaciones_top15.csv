@@ -1,0 +1,346 @@
+País,Indicadores,Correlaciones
+Argentina,"Mortality rate, adult, female (per 1,000 female adults)",0.9884521708560549
+Argentina,"Mortality rate, adult, male (per 1,000 male adults)",0.9876097875522
+Argentina,Rural population (% of total population),0.9623228770754022
+Argentina,"Population ages 80 and above, female",0.9591726098464982
+Argentina,"Population ages 80 and above, male",0.9577837217140376
+Argentina,Prevalence of overweight (% of adults),0.9493222464441866
+Argentina,"Current health expenditure per capita, PPP (current international $)",0.9484661409342174
+Argentina,"Domestic general government health expenditure per capita, PPP (current international $)",0.9465958749098448
+Argentina,Urban population,0.9461837788229146
+Argentina,Proportion of adults who are obese,0.9461105935187538
+Argentina,Population density (people per sq. km of land area),0.9451467726455598
+Argentina,"Population, total",0.9451360823188283
+Argentina,"GDP, PPP (constant 2017 international $)",0.9439631904907074
+Argentina,"Mortality rate, infant (per 1,000 live births)",0.9422493552153897
+Argentina,Number of neonatal deaths,0.9353759318708775
+Bolivia,"Death rate, crude (per 1,000 people)",0.9815950656418809
+Bolivia,"Mortality rate, adult, female (per 1,000 female adults)",0.9741890785527438
+Bolivia,"Mortality rate, infant (per 1,000 live births)",0.9567950125111074
+Bolivia,"Literacy rate, adult total (% of people ages 15 and above)",0.9493722749591664
+Bolivia,"Fertility rate, total (births per woman)",0.9427117247323429
+Bolivia,"Birth rate, crude (per 1,000 people)",0.9411814209150157
+Bolivia,Rural population (% of total population),0.9379037831981859
+Bolivia,Number of neonatal deaths,0.9269117400273262
+Bolivia,Prevalence of overweight (% of adults),0.9159318546419636
+Bolivia,Prevalence of raised blood glucose/diabetes in adults (%),0.9122337705730941
+Bolivia,Proportion of adults who are obese,0.9122337705730938
+Bolivia,Gasto público social según la clasificación por funciones del gobierno (en moneda nacional a precios corrientes),0.9122337705730933
+Bolivia,Poverty gap at $6.85 a day (2017 PPP) (%),0.9121340297108957
+Bolivia,"Population, total",0.9036402971523693
+Bolivia,Population density (people per sq. km of land area),0.9036363783436734
+Brazil,Number of neonatal deaths,0.9848891295394141
+Brazil,"Mortality rate, adult, female (per 1,000 female adults)",0.9838397530489512
+Brazil,"Mortality rate, infant (per 1,000 live births)",0.9808510403459952
+Brazil,Population density (people per sq. km of land area),0.9806581177220001
+Brazil,"Birth rate, crude (per 1,000 people)",0.9806288495886337
+Brazil,"Population, total",0.9800629353468696
+Brazil,Urban population,0.9797008570517773
+Brazil,Rural population (% of total population),0.9769372190986835
+Brazil,"Fertility rate, total (births per woman)",0.9760244961066634
+Brazil,Poverty gap at $6.85 a day (2017 PPP) (%),0.974808726188191
+Brazil,Prevalence of overweight (% of adults),0.9694011065333911
+Brazil,"Educational attainment, at least completed lower secondary, population 25+, total (%) (cumulative)",0.9687448196543071
+Brazil,People using at least basic sanitation services (% of population),0.9686794394834143
+Brazil,"GDP, PPP (constant 2017 international $)",0.9685859517909501
+Brazil,Gasto público social según la clasificación por funciones del gobierno (en moneda nacional a precios corrientes),0.9679021778808212
+Canada,CO2 emissions (kg per PPP $ of GDP),0.992262958690713
+Canada,"Mortality rate, adult, female (per 1,000 female adults)",0.9914963577117427
+Canada,"Population ages 80 and above, female",0.988677564024627
+Canada,"GDP, PPP (constant 2017 international $)",0.9885493123078495
+Canada,Proportion of adults who are obese,0.9855998432275133
+Canada,"Literacy rate, adult total (% of people ages 15 and above)",0.9853672857165356
+Canada,Prevalence of raised blood glucose/diabetes in adults (%),0.9853672857165355
+Canada,Gasto público social según la clasificación por funciones del gobierno (en moneda nacional a precios corrientes),0.9853672857165353
+Canada,Prevalence of overweight (% of adults),0.9848347553939089
+Canada,"Current health expenditure per capita, PPP (current international $)",0.9836146727715908
+Canada,Urban population,0.9814517539814064
+Canada,People using safely managed drinking water services (% of population),0.9784317830823084
+Canada,"Domestic general government health expenditure per capita, PPP (current international $)",0.9766799947614366
+Canada,"Population, total",0.974296918188014
+Canada,"Mortality from CVD, cancer, diabetes or CRD between exact ages 30 and 70 (%)",0.9732136775863722
+Chile,"Mortality rate, adult, male (per 1,000 male adults)",0.9857863094807108
+Chile,"Birth rate, crude (per 1,000 people)",0.9744004168980474
+Chile,"GDP per capita, PPP (constant 2017 international $)",0.9713150378858304
+Chile,Rural population (% of total population),0.9681020005981003
+Chile,"Fertility rate, total (births per woman)",0.967478430220862
+Chile,"Literacy rate, adult total (% of people ages 15 and above)",0.9667137869886585
+Chile,People using at least basic sanitation services (% of population),0.9646440091731222
+Chile,People using safely managed drinking water services (% of population),0.963846900413267
+Chile,Prevalence of overweight (% of adults),0.963229158680628
+Chile,Proportion of adults who are obese,0.9603832689365791
+Chile,Pregnant women receiving prenatal care (%),0.9598973096903903
+Chile,"GDP, PPP (constant 2017 international $)",0.9582089849182016
+Chile,CO2 emissions (kg per PPP $ of GDP),0.9581052056376168
+Chile,Urban population,0.9570923288749558
+Chile,"Current health expenditure per capita, PPP (current international $)",0.9539962964028088
+Colombia,"Mortality rate, adult, male (per 1,000 male adults)",0.9973037769234527
+Colombia,"Mortality rate, adult, female (per 1,000 female adults)",0.9701642447246686
+Colombia,"Fertility rate, total (births per woman)",0.9595941757842852
+Colombia,"Birth rate, crude (per 1,000 people)",0.9583017168758328
+Colombia,Number of neonatal deaths,0.9577676435008139
+Colombia,Pregnant women receiving prenatal care (%),0.9484789077424717
+Colombia,"Mortality rate, infant (per 1,000 live births)",0.9471628284180337
+Colombia,People using safely managed drinking water services (% of population),0.9443029480218385
+Colombia,Rural population (% of total population),0.9441255428791704
+Colombia,People using at least basic sanitation services (% of population),0.9360511328688516
+Colombia,Proportion of adults who are obese,0.9352254053174416
+Colombia,Prevalence of overweight (% of adults),0.9342791316369177
+Colombia,CO2 emissions (kg per PPP $ of GDP),0.9333498748818045
+Colombia,"Population, total",0.9272666732487257
+Colombia,Population density (people per sq. km of land area),0.9272620319017325
+Costa Rica,"Mortality rate, adult, female (per 1,000 female adults)",0.9827874571576307
+Costa Rica,Prevalence of raised blood glucose/diabetes in adults (%),0.893775415612273
+Costa Rica,People using safely managed drinking water services (% of population),0.8891282640337904
+Costa Rica,Population density (people per sq. km of land area),0.8857964790306833
+Costa Rica,"Population, total",0.8851159439273875
+Costa Rica,"Government expenditure on education, total (% of GDP)",0.8834885116639627
+Costa Rica,Rural population (% of total population),0.8800299244667329
+Costa Rica,"Fertility rate, total (births per woman)",0.87929063985142
+Costa Rica,Poverty gap at $6.85 a day (2017 PPP) (%),0.8781251926846483
+Costa Rica,Urban population,0.8723128684039559
+Costa Rica,People using at least basic sanitation services (% of population),0.8681167675327931
+Costa Rica,"Birth rate, crude (per 1,000 people)",0.8656201987348697
+Costa Rica,Prevalence of overweight (% of adults),0.864655499918584
+Costa Rica,"Mortality rate, infant (per 1,000 live births)",0.8626332029317461
+Costa Rica,Proportion of adults who are obese,0.86039073653129
+Cuba,"Mortality rate, adult, male (per 1,000 male adults)",0.9939130273111908
+Cuba,"Mortality rate, adult, female (per 1,000 female adults)",0.9716068808198859
+Cuba,Urban population,0.8610092468160037
+Cuba,Gasto público social según la clasificación por funciones del gobierno (en moneda nacional a precios corrientes),0.8457494175878866
+Cuba,Rural population (% of total population),0.8310807885690285
+Cuba,"Mortality rate, infant (per 1,000 live births)",0.8306075493078627
+Cuba,Number of neonatal deaths,0.8202048796806416
+Cuba,"Unemployment, total (% of total labor force) (modeled ILO estimate)",0.8099244698304359
+Cuba,"Mortality caused by road traffic injury (per 100,000 population)",0.8061488486728845
+Cuba,Population density (people per sq. km of land area),0.7997671263041746
+Cuba,"Educational attainment, at least completed lower secondary, population 25+, total (%) (cumulative)",0.7737210005160643
+Cuba,"Population ages 80 and above, male",0.7535686852776076
+Cuba,"Current health expenditure per capita, PPP (current international $)",0.7415312407561456
+Cuba,Prevalence of overweight (% of adults),0.7401116462277438
+Cuba,"Domestic general government health expenditure per capita, PPP (current international $)",0.7400022776903492
+Dominican Republic,People using safely managed drinking water services (% of population),0.9883179580047464
+Dominican Republic,People using at least basic sanitation services (% of population),0.9831835866492479
+Dominican Republic,"Population, total",0.9828972750853958
+Dominican Republic,"Educational attainment, at least completed lower secondary, population 25+, total (%) (cumulative)",0.9820352956954278
+Dominican Republic,Rural population (% of total population),0.9815595711577326
+Dominican Republic,Gasto público social según la clasificación por funciones del gobierno (en moneda nacional a precios corrientes),0.9813557175186831
+Dominican Republic,Prevalence of raised blood glucose/diabetes in adults (%),0.9813557175186826
+Dominican Republic,Prevalence of overweight (% of adults),0.9812436607935277
+Dominican Republic,Population density (people per sq. km of land area),0.9781398009250571
+Dominican Republic,Proportion of adults who are obese,0.9780428766713071
+Dominican Republic,Urban population,0.9770871417901792
+Dominican Republic,"Current health expenditure per capita, PPP (current international $)",0.9703837370594203
+Dominican Republic,Domestic private health expenditure (% of current health expenditure),0.9668721888444903
+Dominican Republic,"Fertility rate, total (births per woman)",0.9658509562185518
+Dominican Republic,"Domestic general government health expenditure per capita, PPP (current international $)",0.9643245896539061
+Ecuador,"Mortality rate, adult, female (per 1,000 female adults)",0.9980392314241388
+Ecuador,"Mortality rate, adult, male (per 1,000 male adults)",0.9640707131406416
+Ecuador,Number of neonatal deaths,0.9199605549591056
+Ecuador,"Mortality rate, infant (per 1,000 live births)",0.911513942567732
+Ecuador,Rural population (% of total population),0.9055000457810903
+Ecuador,Poverty gap at $6.85 a day (2017 PPP) (%),0.8891126591501088
+Ecuador,Prevalence of raised blood glucose/diabetes in adults (%),0.8828104246960405
+Ecuador,"GDP, PPP (constant 2017 international $)",0.8773230334903563
+Ecuador,"GDP per capita, PPP (constant 2017 international $)",0.8772705429351215
+Ecuador,"Fertility rate, total (births per woman)",0.8766578336449432
+Ecuador,People using safely managed drinking water services (% of population),0.8763941727355804
+Ecuador,Domestic private health expenditure (% of current health expenditure),0.8752059131968049
+Ecuador,Population density (people per sq. km of land area),0.8737090251826984
+Ecuador,"Current health expenditure per capita, PPP (current international $)",0.8727123306715552
+Ecuador,Gini index,0.8718201565078844
+El Salvador,Number of neonatal deaths,0.8893195580545812
+El Salvador,"Fertility rate, total (births per woman)",0.8790239598674395
+El Salvador,"Population ages 80 and above, male",0.8772616912802802
+El Salvador,"Mortality rate, infant (per 1,000 live births)",0.8769072476117942
+El Salvador,"Birth rate, crude (per 1,000 people)",0.8739197349552558
+El Salvador,"Population ages 80 and above, female",0.8737020268818503
+El Salvador,"Mortality rate, adult, female (per 1,000 female adults)",0.8710682907681063
+El Salvador,"Educational attainment, at least completed lower secondary, population 25+, total (%) (cumulative)",0.8624137981141693
+El Salvador,Rural population (% of total population),0.847082946880006
+El Salvador,Prevalence of overweight (% of adults),0.8458369733927404
+El Salvador,Urban population,0.8457061227340534
+El Salvador,Proportion of adults who are obese,0.8399839255739437
+El Salvador,People using safely managed drinking water services (% of population),0.8379236360251109
+El Salvador,People using at least basic sanitation services (% of population),0.837515324411781
+El Salvador,"Current health expenditure per capita, PPP (current international $)",0.8300494781927461
+Guatemala,"Mortality rate, adult, female (per 1,000 female adults)",0.9839117953530777
+Guatemala,"Death rate, crude (per 1,000 people)",0.977459875886224
+Guatemala,"Mortality rate, infant (per 1,000 live births)",0.9731586172486358
+Guatemala,"Mortality rate, adult, male (per 1,000 male adults)",0.9699992548906377
+Guatemala,People using safely managed drinking water services (% of population),0.9493206856895379
+Guatemala,People using at least basic sanitation services (% of population),0.9472584017963143
+Guatemala,"Fertility rate, total (births per woman)",0.9470064146483128
+Guatemala,Prevalence of overweight (% of adults),0.9461118379631469
+Guatemala,Population density (people per sq. km of land area),0.9450455981207584
+Guatemala,"Population, total",0.9450427404193853
+Guatemala,Rural population (% of total population),0.9407213532573928
+Guatemala,"Birth rate, crude (per 1,000 people)",0.9378811339893368
+Guatemala,"Current health expenditure per capita, PPP (current international $)",0.9378313121090189
+Guatemala,Proportion of adults who are obese,0.93614628404408
+Guatemala,"Domestic general government health expenditure per capita, PPP (current international $)",0.9343306583475481
+Haiti,"Mortality rate, adult, female (per 1,000 female adults)",0.9989302556831609
+Haiti,"Fertility rate, total (births per woman)",0.993009199214202
+Haiti,"Mortality rate, adult, male (per 1,000 male adults)",0.9923953288689703
+Haiti,"Birth rate, crude (per 1,000 people)",0.9912688597966289
+Haiti,Poverty gap at $6.85 a day (2017 PPP) (%),0.9901397559014273
+Haiti,"Death rate, crude (per 1,000 people)",0.9876376608954947
+Haiti,People using at least basic sanitation services (% of population),0.9807882152929036
+Haiti,"Population, total",0.9795888243219641
+Haiti,Population density (people per sq. km of land area),0.9795365389577119
+Haiti,Prevalence of raised blood glucose/diabetes in adults (%),0.9794131338933497
+Haiti,People using safely managed drinking water services (% of population),0.9794131338933496
+Haiti,Gasto público social según la clasificación por funciones del gobierno (en moneda nacional a precios corrientes),0.9794131338933495
+Haiti,"Mortality rate, infant (per 1,000 live births)",0.9755255541797241
+Haiti,Prevalence of overweight (% of adults),0.9743082886191157
+Haiti,Rural population (% of total population),0.9719908008170373
+Honduras,"Mortality rate, adult, male (per 1,000 male adults)",0.974510924047113
+Honduras,"Mortality rate, infant (per 1,000 live births)",0.9552925167640454
+Honduras,"Mortality rate, adult, female (per 1,000 female adults)",0.9231830024595508
+Honduras,"Fertility rate, total (births per woman)",0.9209660597051008
+Honduras,"Birth rate, crude (per 1,000 people)",0.915161015318317
+Honduras,"Literacy rate, adult total (% of people ages 15 and above)",0.9113974121034767
+Honduras,People using safely managed drinking water services (% of population),0.9050212956687508
+Honduras,"Government expenditure on education, total (% of GDP)",0.9037273661644332
+Honduras,Population density (people per sq. km of land area),0.8989223582757377
+Honduras,"Population, total",0.8989125077527009
+Honduras,People using at least basic sanitation services (% of population),0.898796092109869
+Honduras,Prevalence of overweight (% of adults),0.8971470437714001
+Honduras,Prevalence of undernourishment (% of population),0.8962253381738227
+Honduras,Prevalence of raised blood glucose/diabetes in adults (%),0.892867204076718
+Honduras,Proportion of adults who are obese,0.8927164549847345
+Jamaica,"Mortality rate, adult, female (per 1,000 female adults)",0.8201402798133824
+Jamaica,"Mortality rate, adult, male (per 1,000 male adults)",0.7873074257343615
+Jamaica,"Unemployment, total (% of total labor force) (modeled ILO estimate)",0.7322806119378702
+Jamaica,"Death rate, crude (per 1,000 people)",0.5675831227397421
+Jamaica,"PM2.5 air pollution, population exposed to levels exceeding WHO guideline value (% of total)",0.5432389629408821
+Jamaica,"Literacy rate, adult total (% of people ages 15 and above)",0.508645888264714
+Jamaica,Prevalence of undernourishment (% of population),0.48395789377530035
+Jamaica,CO2 emissions (kg per PPP $ of GDP),0.46920159455867855
+Jamaica,Prevalence of raised blood glucose/diabetes in adults (%),0.4654543877108017
+Jamaica,"Government expenditure on education, total (% of GDP)",0.4257218410718255
+Jamaica,"Mortality caused by road traffic injury (per 100,000 population)",0.4122813999435712
+Jamaica,Pregnant women receiving prenatal care (%),0.3640626686177239
+Jamaica,"Population ages 80 and above, female",0.34704789396930813
+Jamaica,Capital health expenditure (% of GDP),0.34533502602071886
+Jamaica,Poverty gap at $6.85 a day (2017 PPP) (%),0.29432433868840163
+Mexico,"Mortality rate, adult, female (per 1,000 female adults)",0.9831299330322031
+Mexico,"Mortality rate, adult, male (per 1,000 male adults)",0.8378113532862526
+Mexico,Pregnant women receiving prenatal care (%),0.7103256792227762
+Mexico,Number of neonatal deaths,0.6833342995056441
+Mexico,"Government expenditure on education, total (% of GDP)",0.6778431530963215
+Mexico,"GDP per capita, PPP (constant 2017 international $)",0.6555901350904362
+Mexico,"Mortality rate, infant (per 1,000 live births)",0.6233648733020974
+Mexico,"GDP, PPP (constant 2017 international $)",0.5630001178430103
+Mexico,"Literacy rate, adult total (% of people ages 15 and above)",0.5563738088025214
+Mexico,"Fertility rate, total (births per woman)",0.5529407269930456
+Mexico,"Compulsory education, duration (years)",0.5277369144708702
+Mexico,"Population, total",0.5238100234811478
+Mexico,Population density (people per sq. km of land area),0.5237416769630208
+Mexico,Capital health expenditure (% of GDP),0.5117504747120358
+Mexico,"Birth rate, crude (per 1,000 people)",0.5051584452669524
+Nicaragua,"Mortality rate, adult, female (per 1,000 female adults)",0.9941404453235265
+Nicaragua,"Mortality rate, adult, male (per 1,000 male adults)",0.9919945652737122
+Nicaragua,People using at least basic sanitation services (% of population),0.9827000644800241
+Nicaragua,People using safely managed drinking water services (% of population),0.9776205155961775
+Nicaragua,Proportion of adults who are obese,0.975880758901598
+Nicaragua,"Current health expenditure per capita, PPP (current international $)",0.9734395061259854
+Nicaragua,Prevalence of overweight (% of adults),0.9732281342674962
+Nicaragua,Population density (people per sq. km of land area),0.9699854751721182
+Nicaragua,"Population, total",0.9698863160085293
+Nicaragua,Rural population (% of total population),0.9694348778916356
+Nicaragua,Urban population,0.9677585119779998
+Nicaragua,"GDP, PPP (constant 2017 international $)",0.9672262312098912
+Nicaragua,Domestic general government health expenditure (% of GDP),0.9665527499234459
+Nicaragua,"GDP per capita, PPP (constant 2017 international $)",0.9642394357471865
+Nicaragua,"Mortality rate, infant (per 1,000 live births)",0.962916194188399
+Panama,"Mortality rate, adult, female (per 1,000 female adults)",0.9854377044912979
+Panama,Rural population (% of total population),0.9694310050117876
+Panama,"Literacy rate, adult total (% of people ages 15 and above)",0.9590340563925146
+Panama,Prevalence of overweight (% of adults),0.9587254250114141
+Panama,Gini index,0.9583354637840116
+Panama,"Mortality rate, adult, male (per 1,000 male adults)",0.9580676074718636
+Panama,Poverty gap at $6.85 a day (2017 PPP) (%),0.9538148398694272
+Panama,People using safely managed drinking water services (% of population),0.9536651171394284
+Panama,Gasto público social según la clasificación por funciones del gobierno (en moneda nacional a precios corrientes),0.9536651171394283
+Panama,Prevalence of raised blood glucose/diabetes in adults (%),0.9536651171394283
+Panama,Proportion of adults who are obese,0.9512043331387491
+Panama,People using at least basic sanitation services (% of population),0.9510570559408145
+Panama,Urban population,0.9484735991903349
+Panama,"Mortality rate, infant (per 1,000 live births)",0.9478436697008906
+Panama,"Population, total",0.9446087626240047
+Paraguay,"Mortality rate, adult, female (per 1,000 female adults)",0.9915892301075986
+Paraguay,People using safely managed drinking water services (% of population),0.9468245833168428
+Paraguay,Prevalence of raised blood glucose/diabetes in adults (%),0.9366897555575334
+Paraguay,People using at least basic sanitation services (% of population),0.9347937213576651
+Paraguay,"Population ages 80 and above, female",0.9344997329484824
+Paraguay,Proportion of adults who are obese,0.9342006217869896
+Paraguay,"Mortality rate, infant (per 1,000 live births)",0.9340040161899749
+Paraguay,Number of neonatal deaths,0.9324116090015183
+Paraguay,Prevalence of overweight (% of adults),0.929150916332909
+Paraguay,"Educational attainment, at least completed lower secondary, population 25+, total (%) (cumulative)",0.9255177848791951
+Paraguay,"Current health expenditure per capita, PPP (current international $)",0.9250750949391932
+Paraguay,Urban population,0.9242449087082292
+Paraguay,Rural population (% of total population),0.9228057326881026
+Paraguay,"Population, total",0.9222315213725243
+Paraguay,Population density (people per sq. km of land area),0.9222307154967957
+Peru,Number of neonatal deaths,0.9775125606067128
+Peru,"Mortality rate, infant (per 1,000 live births)",0.9760633527632336
+Peru,Rural population (% of total population),0.9658001565042
+Peru,"Mortality rate, adult, male (per 1,000 male adults)",0.9645065113450112
+Peru,"Birth rate, crude (per 1,000 people)",0.9615092273308127
+Peru,"Mortality rate, adult, female (per 1,000 female adults)",0.9609332323747554
+Peru,"Fertility rate, total (births per woman)",0.9585932361387269
+Peru,Pregnant women receiving prenatal care (%),0.9462860045419551
+Peru,"Population ages 80 and above, female",0.9449531244304349
+Peru,"Population ages 80 and above, male",0.938920610013473
+Peru,People using safely managed drinking water services (% of population),0.93555146149029
+Peru,People using at least basic sanitation services (% of population),0.9350819045718369
+Peru,CO2 emissions (kg per PPP $ of GDP),0.934652343308206
+Peru,Prevalence of overweight (% of adults),0.9331407171528623
+Peru,Urban population,0.9330239310866516
+United States,People using safely managed drinking water services (% of population),0.8853207456071436
+United States,"Population ages 80 and above, female",0.8777923300025794
+United States,Population density (people per sq. km of land area),0.8566809253712031
+United States,"Population, total",0.8562548470972303
+United States,"Mortality rate, infant (per 1,000 live births)",0.8558603289993929
+United States,CO2 emissions (kg per PPP $ of GDP),0.8516344425567783
+United States,Urban population,0.8508657671950047
+United States,Rural population (% of total population),0.849174128162541
+United States,"Mortality rate, adult, female (per 1,000 female adults)",0.8459752966521401
+United States,"Population ages 80 and above, male",0.8381371671256661
+United States,"Mortality rate, adult, male (per 1,000 male adults)",0.8371003394748162
+United States,"GDP per capita, PPP (constant 2017 international $)",0.8363829796141206
+United States,"GDP, PPP (constant 2017 international $)",0.8341253761451762
+United States,Prevalence of overweight (% of adults),0.8295794108263403
+United States,Poverty gap at $6.85 a day (2017 PPP) (%),0.8288631914033406
+Uruguay,"Mortality rate, adult, male (per 1,000 male adults)",0.9944744172449342
+Uruguay,Rural population (% of total population),0.9582482409048969
+Uruguay,"Mortality rate, adult, female (per 1,000 female adults)",0.9566877076120134
+Uruguay,Urban population,0.9521115001357273
+Uruguay,Number of neonatal deaths,0.94807670642812
+Uruguay,Population density (people per sq. km of land area),0.9454335145938823
+Uruguay,"Population ages 80 and above, female",0.9452065297320748
+Uruguay,"Mortality rate, infant (per 1,000 live births)",0.9429699668267661
+Uruguay,"Population, total",0.9419468453235603
+Uruguay,Prevalence of overweight (% of adults),0.9334109724438168
+Uruguay,Proportion of adults who are obese,0.9299391908029196
+Uruguay,Domestic private health expenditure (% of current health expenditure),0.9214961313855303
+Uruguay,Prevalence of raised blood glucose/diabetes in adults (%),0.9212731782449501
+Uruguay,People using at least basic sanitation services (% of population),0.9200411500354092
+Uruguay,"Domestic general government health expenditure per capita, PPP (current international $)",0.9188598686734378
+"Venezuela, RB","Mortality rate, adult, female (per 1,000 female adults)",0.8705001363766558
+"Venezuela, RB","Mortality rate, infant (per 1,000 live births)",0.7233770413804169
+"Venezuela, RB",Capital health expenditure (% of GDP),0.5614130969118989
+"Venezuela, RB",Prevalence of undernourishment (% of population),0.510696558479703
+"Venezuela, RB","Population, total",0.39306927195782626
+"Venezuela, RB",Urban population,0.3928501957685715
+"Venezuela, RB",Population density (people per sq. km of land area),0.38080998114585723
+"Venezuela, RB","PM2.5 air pollution, population exposed to levels exceeding WHO guideline value (% of total)",0.360233288338271
+"Venezuela, RB","Prevalence of overweight, weight for height (% of children under 5)",0.3446779920619632
+"Venezuela, RB",Number of neonatal deaths,0.3270830638981539
+"Venezuela, RB","Fertility rate, total (births per woman)",0.2764365686162454
+"Venezuela, RB","Current health expenditure per capita, PPP (current international $)",0.25862292610394955
+"Venezuela, RB",Domestic private health expenditure (% of current health expenditure),0.24313840292463218
+"Venezuela, RB",Gini index,0.21846427596250442
+"Venezuela, RB","Death rate, crude (per 1,000 people)",0.2027958359301583
