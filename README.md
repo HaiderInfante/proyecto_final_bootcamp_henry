@@ -56,7 +56,7 @@ Contamos con un excelente equipo de profesionales con amplios conocimientos en e
 
 ## Stack Tecnológico
 El stack tecnológico utilizado para este proyecto fue el siguiente:
-
+![Stack](imagenes/02_stack_tecnologico.png)
 ## Explicación del Repositorio
 
 ## Desarrollo General del Proyecto
@@ -85,9 +85,58 @@ Realizamos las regresiones para los 50 indicadores por cada país analizado, en 
 
 ### Planteamiento KPI'S
 
+* **1er KPI:** Aumentó la esperanza de vida en al menos un 2 % en los últimos 6 años, mediante la reducción de la contaminación por CO2.
+
+* **2do KPI:** Aumentó la variación porcentual anual de esperanza de vida en los países que conforman la OEA un 5 % los últimos 5 años con respecto al impacto que ha tenido la variación anual porcentual de la tasa de natalidad.
+
+* **3er KPI:** Aumentó la esperanza de vida en un 3% en los últimos 30 años con respecto a la inversión en educación y al ingreso per cápita.
+
 ### Implementación ETL Automatizado en la Nube con GCP
+**Extracción de datos** 
+
+Para realizar la extracción automatizada de los datos se hizo uso del servició de Google Cloud Platform llamado Cloud Functions, en esta google function llamada ‘function-1-extract-def’ se realizó la extracción de datos automática mediante la consulta a la base de datos del World Bank, esta extracción se basó en el análisis exploratorio inicial que se hizo de al menos 50 indicadores del World Bank.
+Este código puede ser encontrado en el repositorio del proyecto en el notebook ‘06.implementacion_gcp’ en el apartado de ‘extracción de datos’.
+
+![extraccion](imagenes/03_extraccion_1.png)
+
+Una vez realizada esta extracción automática, la información queda contenida en un archivo csv, el cual queda guardado en un bucket de Google Cloud Storage llamado ‘wb_data’.
+
+![extraccion](imagenes/03_extraccion_2.png)
+
+**Transformación de datos** 
+
+Una vez realizada toda la extracción se procede a transformar los datos y seguidamente a cargarlos, nuevamente con la implementación de una Cloud Function llamada ‘function-1-transform-def-2’ se logra realizar la transformación de los datos. Este código puede ser encontrado en el repositorio del proyecto en el notebook ‘06.implementacion_gcp’ en el apartado de ‘transformación de datos’.
+
+![extraccion](imagenes/04_transformacion_1.png)
+
+Estos nuevos datos quedan cargados nuevamente en el bucket de cloud storage en un archivo llamado ‘processed_data.csv’ como se muestra en la siguiente imagen.
+
+![extraccion](imagenes/04_transformacion_2.png)
+
+**Carga de datos** 
+
+Para cargar los datos al data warehouse usamos otra google cloud function llamada “function-1-load” la cual toma el archivo “proccesed_data.csv”, él cual está en un bucket de cloud storage y directamente crea la tabla en bigquery lista para ser consumida por medio de consultas sql o mediante transformación adicionales en los notebooks de bigquery.
+
+Este código puede ser encontrado en el repositorio del proyecto en el notebook ‘06.implementacion_gcp’ en el apartado de ‘carga de datos’.
+
+![Carga](imagenes/05_carga_1.png)
+
+![Carga](imagenes/05_carga_2.png)
 
 ### Generación de Dashboards en Looker Studio
+Una vez el data warehouse esté cargado en BigQuery se procede a realizar los dashboards para cada uno de los KPI ‘S propuestos anteriormente mediante el servicio de Looker Studio, el cual es un servicio que se encuentra dentro de la plataforma Google Cloud Platform.
+
+**KPI # 1**
+
+![KPI](imagenes/07_KPI1.png)
+
+**KPI # 2**
+
+![KPI](imagenes/07_KPI2.png)
+
+**KPI # 3**
+
+![KPI](imagenes/07_KPI2.png)
 
 ### Implementación Modelo de Machine Learning
 
