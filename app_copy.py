@@ -11,6 +11,8 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split, GridSearchCV
 import warnings
 warnings.filterwarnings('ignore')
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 import os
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "modelos_machine_learning/pf-henry-404414-39010891a60e.json"
@@ -148,31 +150,66 @@ def find_closest_country(input_country, countries_list, cutoff=0.6):
     closest_matches = get_close_matches(input_country.lower(), countries_list, n=1, cutoff=cutoff)
     return closest_matches[0] if closest_matches else None
 
-st.title("Predicción de Esperanza de Vida")
+# Diccionario para almacenar las predicciones de esperanza de vida para cada país en 2040
+predictions_2040 = {}
 
-# Input de país
-country_input = st.text_input("Ingrese el país deseado:")
+# Iterar sobre todos los países y obtener las predicciones
+for country in all_countries:
+    predicted_life_expectancy = predict_life_expectancy(country, 2040, rf_optimized, data_original, scaler, pca, indicators)
+    predictions_2040[country] = predicted_life_expectancy
 
-# Input de año
-year_input = st.text_input("Ingrese el año deseado:")
+# Ordenar los países por su esperanza de vida predicha en 2040 de mayor a menor
+top_countries_2040 = sorted(predictions_2040.items(), key=lambda x: x[1], reverse=True)
 
-# Botón de predicción
-if st.button("Predecir Esperanza de Vida"):
-    # Validación de entrada y predicción
-    if country_input and year_input:
-        country_normalized = find_closest_country(country_input, all_countries_normalized)
+# Crear la aplicación Streamlit
+st.title("¿Cuales son los cinco países con la mayor esperanza de vida en 2040?")
 
-        if country_normalized:
-            try:
-                year_input = int(year_input)
-            except ValueError:
-                st.error("El año ingresado no es válido.")
-            else:
-                country_original = all_countries[all_countries_normalized.index(country_normalized)]
-                predicted_life_expectancy = predict_life_expectancy(country_original, year_input, rf_optimized, data_original, scaler, pca, indicators)
-                st.success(f"La esperanza de vida del país {country_original} para el año {year_input} es: {predicted_life_expectancy}")
-        else:
-            st.error("País no encontrado. Por favor, intente nuevamente.")
-    else:
-        st.warning("Por favor, complete ambos campos.")
+# Agregar un botón para mostrar la lista de los cinco países
+if st.button("Consulta #1"):
+    # Imprimir los cinco países con la mayor esperanza de vida en 2040
+    for i in range(5):
+        st.write(f"{i+1}. {top_countries_2040[i][0]}: {top_countries_2040[i][1]} años")
 
+
+
+# Ordenar las predicciones en orden ascendente
+sorted_predictions = sorted(predictions_2040.items(), key=lambda x: x[1])
+
+# Crear la aplicación Streamlit
+st.title("¿Cuales son los cinco países con la menor esperanza de vida en 2040?")
+
+# Agregar un botón para mostrar la lista de los cinco países con la esperanza de vida más baja
+if st.button("Consulta #2"):    
+    # Imprimir los cinco países con la esperanza de vida más baja en 2040
+    for country, life_expectancy in sorted_predictions[:5]:
+        st.write(f"{country}: {life_expectancy} años")
+
+
+columns_of_interest = ['Anio', 'Esperanza_vida_total']
+data_subset_temporal = data[columns_of_interest]
+
+# Agrupar por año y calcular la esperanza de vida promedio
+mean_life_expectancy_by_year = data_subset_temporal.groupby('Anio')['Esperanza_vida_total'].mean().reset_index()
+
+# Crear la aplicación Streamlit
+st.title('Cambio en la Esperanza de Vida Global (Promedio) en las Últimas Dos Décadas')
+
+# Configurar el tamaño del gráfico si es necesario
+plt.figure(figsize=(10, 6))
+
+# Graficar el cambio en la esperanza de vida a lo largo del tiempo usando Matplotlib
+sns.lineplot(x='Anio', y='Esperanza_vida_total', data=mean_life_expectancy_by_year, marker='o')
+
+# Ajustar el rango del eje y para mejorar la visualización
+y_min = mean_life_expectancy_by_year['Esperanza_vida_total'].min()
+y_max = mean_life_expectancy_by_year['Esperanza_vida_total'].max()
+plt.ylim(y_min, y_max)
+
+# Agregar título y etiquetas al gráfico
+plt.title('Cambio en la Esperanza de Vida Global (Promedio) en las Últimas Dos Décadas')
+plt.xlabel('Año')
+plt.ylabel('Esperanza de Vida Promedio')
+plt.grid(True)
+
+# Mostrar el gráfico en Streamlit
+st.pyplot(plt)
