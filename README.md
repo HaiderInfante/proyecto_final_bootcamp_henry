@@ -24,18 +24,23 @@ Somos una consultora de datos llamada LatAm-Data Consulting encargada de realiza
 Para el presente proyecto el propósito es trabajar en colaboración con entidades gubernamentales para mejorar la calidad de vida de las personas, aumentar los niveles de esperanza de vida y fomentar la salud y el bienestar a nivel global. Ésto se realizará mediante un proyecto de data science completo en donde se involucren procesos de data engineering, data analytics y machine learning; basados principalmente en un dataset del Banco Mundial y otras fuentes de interés que proporcionen datos de calidad con el fin de realizar un ciclo de vida de dato completo y llegar a la resolución de los objetivos planteados.
 
 ## Objetivo General
-Desarrollar un servicio de consultoría a los gobiernos de los países que conforman la OEA en donde se propongan políticas públicas con el fin de aumentar la esperanza de vida de la población analizando las variables más significativas en el sector socio-económico.
+Brindar un servicio de consultoría para los gobiernos de los paises de la OEA con el fin de que desarrollen políticas públicas de acuerdo al impacto que han tenido las variables socioeconómicas en la esperanza de vida de la población.
 
 ## Objetivos Específicos
-* Realizar un análisis exploratorio completo de los datos del proyecto.
-* Documentar claramente los pasos tomados en el análisis, incluyendo gráficos y visualizaciones relevantes.
-* Desarrollar un dashboard funcional e interactivo en power bi que facilite la exploración de datos.
-* Incluir filtros en power bi que permitan a los usuarios seleccionar y analizar datos específicos.
-* Diseñar el dashboard el power bi de manera clara y estética para facilitar la interpretación de la información.
-* Medir y graficar la reducción del 10% en la tasa de homicidios en siniestros viales de los últimos seis meses en CABA en comparación con el semestre anterior.
-* Medir y graficar la reducción del 7% en la cantidad de accidentes mortales de motociclistas en el último año en CABA en comparación con el año anterior.
-* Proponer, medir y graficar un tercer KPI relevante para la temática de seguridad vial.
-* Garantizar que los KPIs estén representados adecuadamente en el dashboard de power bi.
+* Extraer, limpiar,  procesar y  analizar datos demográficos, sociales, económicos y de salud de los países de la OEA para comprender las tendencias actuales en el indicador de esperanza de vida y cómo impactan cada una de las variables seleccionadas en este indicador.
+
+* Identificar factores determinantes que influyen en la esperanza de vida de la población como la nutrición, el acceso a la atención médica, el entorno social y económico.
+
+* Realizar un análisis exhaustivo de datos por países y por indicadores que nos permita identificar patrones de comportamiento, tendencias, relaciones y calcular pos KPI
+
+* Plantear KPI 'S que permitan medir y evaluar el desempeño de las variables seleccionadas en los sectores gubernamentales y qué impacto están teniendo en la esperanza de vida en los países de la OEA.
+
+* Proponer estrategias para aumentar los índices de esperanza de vida en la población de los países de la OEA
+
+* Proponer un modelo de machine learning que permita resolver una problemática identificada en el proceso de data analytics. Este modelo requerirá de los pasos de selección del modelo, entrenamiento y evaluación 
+
+* Automatizar el ciclo de vida del dato mediante Google Cloud Platform en donde se implementará pipelines automatizados de extracción, transformación y carga de datos para finalmente visualizar los reportes de los KPI 'S planteados.
+
 
 ## Alcance del Proyecto
 Para el presente proyecto abordaremos los países que conforman la Organización de Estados Americanos (OEA), dejando para un proyecto posterior el análisis de un proyecto que englobe países de diferentes continentes. Adicional el rango de años seleccionado para el proyecto es de 32 años (1990-2022).
@@ -123,7 +128,9 @@ Este código puede ser encontrado en el repositorio del proyecto en el notebook 
 
 ![Carga](imagenes/05_carga_2.png)
 
-### Generación de Dashboards en Looker Studio
+## Producto Final del Proyecto
+
+### Dashboards en Looker Studio
 Una vez el data warehouse esté cargado en BigQuery se procede a realizar los dashboards para cada uno de los KPI ‘S propuestos anteriormente mediante el servicio de Looker Studio, el cual es un servicio que se encuentra dentro de la plataforma Google Cloud Platform.
 
 **KPI # 1**
@@ -136,11 +143,20 @@ Una vez el data warehouse esté cargado en BigQuery se procede a realizar los da
 
 **KPI # 3**
 
-![KPI](imagenes/07_KPI2.png)
+![KPI](imagenes/07_KPI3.png)
 
-### Implementación Modelo de Machine Learning
+### Deployment Modelo de Machine Learning
+Por medio del data warehouse cargado en BigQuery se procede a realizar todo el proceso de modelado del modelo de machine learning, este archivo se encuentra en la sección 'Notebooks_ML/ML_final_seleccion_prediccion.ipynb' del presente repositorio.
+Una vez realizado el modelo se procede a implementar por medio de la libreria streamlit todo el proceso para ser deployado en la web, este codigo es encontrado en el archivo 'app.py'del presente proyecto; para que este archivo funcione correctamente se debe crear tambien un archivo 'app.yaml' y 'requirements.txt' contenidos tambien en el actual repositorio en la carpeta raíz.
+
+Una vez realizado toda la implementación de streamlit se procede a cargar el repositorio a GitHub, que es de donde se va a deployar, para hacer este deploy se hace uso del aplicativo 'share.streamlit.io' para finalmente ser mostrado en la web de manera online e interactiva y que se encuentra alojado en [este enlace](https://proyectofinalbootcamphenry-nkd7h3fumgqju7zsfsnsiv.streamlit.app/).
+
+**Deployment en la web**
+
+![Deploy](imagenes/08_deploy.png)
 
 ## Documentación Oficial del Proyecto
-[Documentación Oficial](https://docs.google.com/document/d/1tasQgqrHd8O3r5we7FaN1J7Qnps3nfe9UmtfKFxx0hs/edit?usp=sharing)
+La Documentación oficial del proyecto la pueden encontrar en el siguiente enlace: [Documentación Oficial](https://docs.google.com/document/d/1tasQgqrHd8O3r5we7FaN1J7Qnps3nfe9UmtfKFxx0hs/edit?usp=sharing).
 
 ## Video Oficial del Proyecto
+El video completo del proyecto se encuentra alojado en [este enlace]().
