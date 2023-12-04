@@ -159,4 +159,4 @@ Una vez realizado toda la implementación de streamlit se procede a cargar el re
 La Documentación oficial del proyecto la pueden encontrar en el siguiente enlace: [Documentación Oficial](https://docs.google.com/document/d/1tasQgqrHd8O3r5we7FaN1J7Qnps3nfe9UmtfKFxx0hs/edit?usp=sharing).
 
 ## Video Oficial del Proyecto
-El video completo del proyecto se encuentra alojado en [este enlace]().
+El video completo del proyecto se encuentra alojado en [este enlace](https://drive.google.com/file/d/1DQjLjmyzn3cfrNT1E7Rd2KgCJbXxkOv0/view?usp=sharing).
